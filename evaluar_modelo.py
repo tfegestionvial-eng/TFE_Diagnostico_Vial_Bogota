@@ -4,9 +4,9 @@ import csv
 
 if __name__ == '__main__':
 
-    MODELO = r"C:\Scripts\UMV\resultados\modelo_final_bogota-2\weights\best.pt"
-    DATASET = r"C:\Scripts\dataset_combinado\data.yaml"
-    RESULTADOS = r"C:\Scripts\UMV\resultados\modelo_final_bogota-2"
+    MODELO = r"C:\Scripts\TFE_UMV_Final\Resultados\modelo_final_bogota\weights\best.pt"
+    DATASET = r"C:\Scripts\TFE_UMV_Final\dataset_combinado\data.yaml"
+    RESULTADOS = r"C:\Scripts\TFE_UMV_Final\Resultados\modelo_final_bogota"
     CLASES = ['hueco', 'piel_cocodrilo', 'grieta', 'parcheo']
 
     print("=== EVALUACIÓN MODELO FINAL UMV BOGOTÁ ===\n")
